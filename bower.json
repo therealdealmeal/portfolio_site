@@ -9,7 +9,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "libs"
   ],
   "dependencies": {
     "angular": "^1.6.2",
