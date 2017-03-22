@@ -1,0 +1,25 @@
+body {
+  background-color: #cccccc;
+}
+
+header {
+  background: url("/img/patmtns.jpg");
+  background-size: auto 350px;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: auto;
+  border-bottom: 5px solid red;
+}
+
+.img-circle {
+  background-position: left top;
+  margin-left: 50px;
+  margin-top: 100px;
+  width: 200px;
+  height: 175px;
+}
+
+.row {
+  width: auto;
+  height: 500px;
+}

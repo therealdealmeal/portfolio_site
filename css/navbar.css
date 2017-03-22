@@ -1,0 +1,21 @@
+li {
+  width: 181px;
+  height: 42px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover, a:active {
+  color: black;
+  background-color: lightgreen;
+}
+
+.navbar {
+  background-color: #009933;
+}

@@ -1,51 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="app">
   <head>
     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="container fluid" id="cover">
-      <header>
-        <p>Put image within header in the css, still think what background image to use</p>
-        <p>Green or dark green nav bar; Have it also fixed to the top but at the bottom of the header (image)</p>
-        <p>Have a hidden dropdown on the right of nav bar and my full name on the left</p>
-        <p>have nav bar use tabs, when tab is open, have it open up the partial while still connecting the tab</p>
-        <p>Different photo of me than the one on linkdin</p>
-        <p>when first arrival on site, have toaster pop up welcoming viewer, make it green or yellow or light blue</p>
-        <p>in middle of header/image, put small circular pic of myself</p>
-      </header>
+    <header>
+      <img src="./img/spotTheCat.jpg" class="img-circle" alt="Cinque Terre">
+      <div ng-include="'views/navbar.html'"></div>
+    </header>
+    <div class="container" id="cover">
 
-      don't have partials change the url, should always be '/'
+      <div class="content">
 
-      <h3>Home</h3> <p>Don't have at all</p> --Have infinite scroll for the tabs
 
-      <h3>About</h3> <p>Talk about self in the third person</p>
+        <div class="row" id="home_section">
+          <div class="col-sm-12">
+            <h1>HOME THINGS</h1>
+          </div>
+        </div>
 
-      <h3>Education</h3> <p>Have name of school be on the right, its icon or emblem or whatever, year graduated on the right</p>
+        <hr>
 
-      <h3>Technologies</h3> <p>have categories, (like languages, frameworks, databases, etc), open list contained, (e.g. languages would show ruby, python, javascript), one at a time in a falling dominos like fashion</p>
+        <div class="row" id="about_section">
+          <div class="col-sm-12">
+            <h1>ABOUT THINGS</h1>
+          </div>
+        </div>
 
-      <h3>Portfolio</h3> <p>on hover, have name of project fade out from the image on whatever side looks better</p>
+        <hr>
 
-      <h3>Contact</h3> <p>have index as well, at the bottom above copyright, have it be a div with a dark background and light lettering</p> --use icons
+        <div class="row" id="education_section">
+          <div class="col-sm-12">
+            <h1>EDUCATION THINGS</h1>
+          </div>
+        </div>
 
-      <h3>Copy Rights</h3> <p>have stay on bottom of page as div on index.html not as a partial; have it be a div with a light background and dark lettering</p>
+        <hr>
+
+        <div class="row" id="skills_section">
+          <div class="col-sm-12">
+            <h1>SKILLS THINGS</h1>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row" id="portfolio_section">
+          <div class="col-sm-12">
+            <h1>PORTFOLIO THINGS</h1>
+          </div>
+        </div>
+
+      </div>
+
 
     </div>
 
-    <hr>
+    <!-- <hr> -->
     <!-- <span class="social social-github"></span>
     <span class="social social-linked-in"></span>
     <span class="social social-gmail"></span>
     <span class="glyphicons glyphicons-note"></span>
     <span class="social social-paypal"></span> -->
 
+    <script src="./lib/angular/angular.min.js"></script>
+    <script src="./lib/angular-route/angular-route.min.js"></script>
+    <script src="./lib/angular-resource/angular-resource.min.js" ></script>
     <script src="./lib/jquery/dist/jquery.min.js"></script>
     <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./libs/angular/angular.min.js"></script>
-    <script src="./libs/angular-route/angular-route.min.js"></script>
-    <script src="./libs/angular-resource/angular-resource.min.js" ></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./app/app.js"></script>
   </body>
 </html>
