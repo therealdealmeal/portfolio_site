@@ -1,12 +1,12 @@
-li {
-  width: 181px;
-  height: 42px;
+ul {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-a {
+li {
+  width: 181px;
+  height: 42px;
   color: black;
   font-weight: bold;
 }

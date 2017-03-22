@@ -1,6 +1,3 @@
-$(function() {
-  $('a#home_tab').click(function() {
-      $('#home_section').slideToggle();
-      return false;
-  });
+$('.tabs').click(function(event) {
+  event.preventDefault();
 });

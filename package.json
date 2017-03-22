@@ -21,6 +21,7 @@
   "dependencies": {
     "angular-nicescroll": "0.0.0",
     "express": "^4.14.1",
+    "jquery-ui": "^1.12.1",
     "jquery.localscroll": "^1.4.0",
     "jquery.scrollto": "^2.1.2",
     "smoothscroll-polyfill": "^0.3.4"

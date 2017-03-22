@@ -4,9 +4,9 @@ body {
 
 header {
   background: url("/img/patmtns.jpg");
-  background-size: auto 350px;
+  background-size: 100vw 350px;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 300px;
   width: auto;
   border-bottom: 5px solid red;
 }
@@ -14,12 +14,41 @@ header {
 .img-circle {
   background-position: left top;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 60px;
   width: 200px;
   height: 175px;
 }
 
-.row {
-  width: auto;
-  height: 500px;
+#sections {
+  display: table;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  min-width: 696px;
+  list-style: none;
+  height: 42px;
+}
+
+li {
+  width: 19vw;
+  height: 42px;
+  display: inline;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+
+a:active {
+  color: black;
+  background-color: yellow;
+}
+
+.navbar {
+  background-color: #009933;
 }
