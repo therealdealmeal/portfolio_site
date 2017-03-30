@@ -1,0 +1,76 @@
+body {
+  background-color: #ffffb3;
+  overflow: scroll;
+}
+
+header {
+  background: url("/img/patmtns.jpg");
+  background-size: 100vw 350px;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: auto;
+  border-bottom: 5px solid cc3300;
+}
+
+.img-circle {
+  background-position: left top;
+  margin-left: 50px;
+  margin-top: 60px;
+  width: 200px;
+  height: 175px;
+}
+
+#sections {
+  display: table;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  min-width: 696px;
+  list-style: none;
+  height: 42px;
+}
+
+li {
+  width: 24vw;
+  height: 42px;
+  display: inline;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #cc3300;
+}
+
+p {
+  font-family: Georgia;
+  text-align: center;
+}
+
+.aboutPar {
+  font-size: 20px;
+  text-indent: 40px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  word-spacing: 3px;
+  line-height: 1.8;
+  text-shadow: 3px 1px #cc3300;
+}

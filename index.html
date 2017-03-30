@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/" />
     <title>Portfolio</title>
+    <!-- <link rel="stylesheet" href="jquery-ui.min.css"> -->
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
-    <h2>Time to start the portfolio</h2>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <header>
+
+      <img src="./img/spotTheCat.jpg" class="img-circle" alt="Cinque Terre">
+
+    </header>
+
+    <div class="container">
+
+
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container-fluid" id="sections">
+
+          <ul class="nav nav-pills nav-fixed-bottom">
+            <li><a href="#about_section" data-toggle="tab" id="about_tab" class="tabs">About</a></li>
+            <li><a href="#education_section" data-toggle="tab" id="education_tab" class="tabs">Education</a></li>
+            <li><a href="#skills_section" data-toggle="tab" id="skills_tab" class="tabs">Skills</a></li>
+            <li><a href="#portfolio_section" data-toggle="tab" id="portfolio_tab" class="tabs">Portfolio</a></li>
+            <!-- <li><a href="#contact_section" data-toggle="tab" id="contact_tab" class="tabs">Contact</a></li> -->
+          </ul>
+
+        </div>
+      </nav>
+
+
+          <div class="tab-content clearfix">
+
+            <div class="tab-pane active" id="about_section">
+              <h1>ABOUT</h1><br>
+
+              <p class="aboutPar">
+                I am a Bay Area full-stack web developer looking to expand my knowledge of technology
+                and to get an opportunity to work in this thriving industry. Whether it's
+                software development or informational technology, I am always seeking to learn more
+                and apply it. I have some experience working as an independent contractor helping
+                small businesses develop their own websites. I am hoping for the opportunity to be
+                able to work for a company and gain experience in how technology is utilized for them
+                in their industry.
+              </p>
+
+              <h1>HOBBIES / INTERESTS</h1><br>
+
+              <p class="aboutPar">
+                A little more about me. Since I was young, I have been fortunate enough to experience traveling
+                to many different countries. Today I still have that desire to travel and continue to
+                visit places I have never been to before. While I wait for those traveling opportunities, I
+                like to go on hikes and consider myself a food enthusiast that's always looking to try something
+                new. I'm a sports fanatic that's always looking to watch about basketball, football, etc. Whether
+                it's arguing about our favorite franchises or disecting the most minimal of statistics, I'm
+                always up for a discussion.
+              </p>
+
+              <p class="aboutPar">
+                I started programming a couple years ago and have loved it since. I like how it allows me
+                to build on a simple or complex ideas and see what I can make of them. As I have expand my knowledge
+                of technology, I have come to enjoy infinite number of possibilites that it can bring. I am always
+                open to hearing new ideas and collaborating with other programmers on bringing the best out of that
+                idea.
+              </p>
+            </div>
+
+
+            <div class="tab-pane" id="education_section">
+              <h1>EDUCATION</h1>
+
+            </div>
 
 
 
@@ -14,10 +82,39 @@
 
 
 
+            <div class="tab-pane" id="skills_section">
+              <h1>SKILLS THINGS</h1>
+            </div>
+            <div class="tab-pane" id="portfolio_section">
+              <h1>PORTFOLIO THINGS</h1>
+            </div>
+
+            <!-- <div class="tab-pane" id="contact_section">
+              <h1>CONTACT THINGS</h1>
+            </div> -->
+
+          </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- <hr> -->
+    <!-- <span class="social social-github"></span>
+    <span class="social social-linked-in"></span>
+    <span class="social social-gmail"></span>
+    <span class="glyphicons glyphicons-note"></span>
+    <span class="social social-paypal"></span> -->
+
+    <!-- <script src="./lib/angular/angular.min.js"></script>
+    <script src="./lib/angular-route/angular-route.min.js"></script>
+    <script src="./lib/angular-resource/angular-resource.min.js" ></script> -->
     <script src="./lib/jquery/dist/jquery.min.js"></script>
     <script src="./lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./libs/angular/angular.min.js"></script>
-    <script src="./libs/angular-route/angular-route.min.js"></script>
-    <script src="./libs/angular-resource/angular-resource.min.js" ></script>
+    <script src="./js/navbar.js"></script>
+    <!-- <script src="./app/app.js"></script> -->
   </body>
 </html>
