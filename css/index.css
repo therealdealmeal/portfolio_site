@@ -1,5 +1,6 @@
 body {
-  background-color: #cccccc;
+  background-color: #ffffb3;
+  overflow: scroll;
 }
 
 header {
@@ -8,7 +9,7 @@ header {
   background-repeat: no-repeat;
   height: 300px;
   width: auto;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid cc3300;
 }
 
 .img-circle {
@@ -33,22 +34,43 @@ ul {
 }
 
 li {
-  width: 19vw;
+  width: 24vw;
   height: 42px;
   display: inline;
 }
 
-a {
-  color: black;
-  font-weight: bold;
-  display: block;
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+  background-color: black;
+  color: white;
 }
 
-a:active {
+a {
   color: black;
-  background-color: yellow;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar {
-  background-color: #009933;
+  background-color: #cc3300;
+}
+
+p {
+  font-family: Georgia;
+  text-align: center;
+}
+
+.aboutPar {
+  font-size: 20px;
+  text-indent: 40px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: none;
+  word-spacing: 3px;
+  line-height: 1.8;
+  text-shadow: 3px 1px #cc3300;
 }
