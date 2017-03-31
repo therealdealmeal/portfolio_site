@@ -45,6 +45,10 @@ li {
   color: white;
 }
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+  text-decoration: underline;
+}
+
 a {
   color: black;
   font-size: 20px;
@@ -73,4 +77,61 @@ h1 {
   word-spacing: 3px;
   line-height: 1.8;
   text-shadow: 3px 1px #cc3300;
+}
+
+.img-portfolio {
+  height: 300px;
+  width: 35vw;
+  margin-top: 50px;
+}
+
+#portfolio_section {
+  margin-bottom: 140px;
+}
+
+.skill-categories {
+  text-align: center;
+  line-height: normal;
+}
+
+#skills_section {
+  margin-bottom: 140px;
+}
+
+.middle-top {
+  margin-top: -100px;
+}
+
+.middle-bottom {
+  margin-top: -40px;
+}
+
+.grey-box {
+  background-color: #e6e6e6;
+  height: 200px;
+}
+
+.eduLogos {
+  height: 130px;
+  width: 130px;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+#education_section {
+  margin-bottom: 140px;
+}
+
+.grey-box-school {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 22px;
+  margin-left: 60px;
+}
+
+.grey-box-date {
+  text-align: right;
+  margin-top: 80px;
+  margin-right: -80px;
+  font-size: 22px;
 }
