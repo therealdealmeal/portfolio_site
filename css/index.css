@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffb3;
+  background-color: lightgrey; // #ffffb3
   overflow: scroll;
 }
 
@@ -77,7 +77,7 @@ h1 {
   text-decoration: none;
   word-spacing: 3px;
   line-height: 1.8;
-  text-shadow: 3px 1px #cc3300;
+  font-style: italic bold; // #cc3300;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
@@ -97,7 +97,7 @@ h1 {
   line-height: normal;
 }
 
-#skills_section {
+#technologies_section {
   margin-bottom: 140px;
 }
 
@@ -161,7 +161,7 @@ h1 {
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
-	background-color: #ffa31a;
+	background-color: lightblue;
 	padding-top: 15px;
 	opacity: 0.95;
 }
@@ -174,7 +174,7 @@ h1 {
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
-	background-color: #ffa31a;
+	background-color: lightblue;
 	padding-top: 15px;
 	opacity: 0.95;
 }
@@ -187,7 +187,7 @@ h1 {
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
-	background-color: #ffa31a;
+	background-color: lightblue;
 	padding-top: 15px;
 	opacity: 0.95;
 }
@@ -200,7 +200,7 @@ h1 {
 	width: 90px;
 	height: 90px;
 	border-radius: 50%;
-	background-color: #ffa31a;
+	background-color: lightblue; // #ffa31a;
 	padding-top: 15px;
 	opacity: 0.95;
 }
