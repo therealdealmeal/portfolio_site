@@ -13,7 +13,7 @@ header {
 }
 
 .img-circle {
-  background-position: left top;
+  /*background-position: center;*/
   margin-left: 50px;
   margin-top: 60px;
   width: 200px;
@@ -60,12 +60,13 @@ a {
 }
 
 p {
-  font-family: Georgia;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   text-align: center;
 }
 
 .aboutPar {
   font-size: 20px;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
   text-indent: 40px;
   margin-left: 30px;
   margin-bottom: 60px;
@@ -77,6 +78,7 @@ h1 {
   word-spacing: 3px;
   line-height: 1.8;
   text-shadow: 3px 1px #cc3300;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
 .img-portfolio {
@@ -90,6 +92,7 @@ h1 {
 }
 
 .skill-categories {
+  font-family: Georgia, Times, "Times New Roman", serif;
   text-align: center;
   line-height: normal;
 }
@@ -109,6 +112,7 @@ h1 {
 .grey-box {
   background-color: #e6e6e6;
   height: 200px;
+  border-radius: 10px;
 }
 
 .eduLogos {
@@ -123,8 +127,9 @@ h1 {
 }
 
 .grey-box-school {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 30px;
   font-size: 22px;
   margin-left: 60px;
 }
@@ -134,4 +139,90 @@ h1 {
   margin-top: 80px;
   margin-right: -80px;
   font-size: 22px;
+}
+
+.img-portfolio {
+  border-radius: 10px;
+}
+
+.social_media {
+	display: inline-block;
+}
+
+#icons {
+	text-align: center;
+	padding: 15px 15px;
+  font-size: 10px;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+
+#linkedin {
+	/*margin: 0px 20px 10px;*/
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: white;
+	padding-top: 15px;
+	opacity: 0.95;
+}
+
+.fa-linkedin {
+	font-size: 3em !important;
+}
+
+#github {
+	/*margin: 0px 20px 10px;*/
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: white;
+	padding-top: 15px;
+	opacity: 0.95;
+}
+
+.fa-github {
+	font-size: 3em !important;
+}
+
+#resume {
+	/*margin: 0px 20px 10px;*/
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: white;
+	padding-top: 15px;
+	opacity: 0.95;
+}
+
+.fa-file-text {
+	font-size: 3em !important;
+}
+
+#email {
+	/*margin: 0px 20px 10px;*/
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: white;
+	padding-top: 15px;
+	opacity: 0.95;
+}
+
+.fa-envelope-o {
+	font-size: 3em !important;
+}
+
+.text-center {
+  margin-bottom: 60px;
+}
+
+.contact-title {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+#copyrights {
+  margin-top: 5px;
 }
