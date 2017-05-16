@@ -2,6 +2,7 @@ ul {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 li {
@@ -9,6 +10,8 @@ li {
   height: 42px;
   color: black;
   font-weight: bold;
+  display: inline;
+  position: relative;
 }
 
 a:hover, a:active {
