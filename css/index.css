@@ -7,7 +7,7 @@ header {
   background: url("/img/patmtns.jpg");
   background-size: 100vw 350px;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 500px;
   width: auto;
   border-bottom: 5px solid cc3300;
 }
@@ -15,9 +15,9 @@ header {
 .img-circle {
   /*background-position: center;*/
   margin-left: 450px;
-  margin-top: 60px;
-  width: 200px;
-  height: 175px;
+  margin-top: 40px;
+  width: 300px;
+  height: 275px;
 }
 
 #sections {
